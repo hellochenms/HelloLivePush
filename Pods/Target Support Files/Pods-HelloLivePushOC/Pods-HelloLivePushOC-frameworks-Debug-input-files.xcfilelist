@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-HelloLivePushOC/Pods-HelloLivePushOC-frameworks.sh
+${PODS_ROOT}/PLMediaStreamingKit/Pod/Library/PLMediaStreamingKit.framework
+${PODS_ROOT}/PLMediaStreamingKit/Pod/Library/HappyDNS.framework

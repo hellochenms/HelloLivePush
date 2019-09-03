@@ -3,19 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B8703F577D762CC66522E1F /* Pods_HelloLivePushOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1278217555323A08270CE76 /* Pods_HelloLivePushOC.framework */; };
+		9908CFF1231E04D600E7E6ED /* Extractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9908CFF0231E04D600E7E6ED /* Extractor.m */; };
 		99AD97BD2317C53C00C28182 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AD97BC2317C53C00C28182 /* AppDelegate.m */; };
 		99AD97C02317C53C00C28182 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AD97BF2317C53C00C28182 /* ViewController.m */; };
 		99AD97C32317C53C00C28182 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99AD97C12317C53C00C28182 /* Main.storyboard */; };
 		99AD97C52317C53E00C28182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99AD97C42317C53E00C28182 /* Assets.xcassets */; };
 		99AD97C82317C53E00C28182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99AD97C62317C53E00C28182 /* LaunchScreen.storyboard */; };
 		99AD97CB2317C53E00C28182 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AD97CA2317C53E00C28182 /* main.m */; };
+		99F1F90323195B4D0025D05B /* Captor.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F1F90223195B4D0025D05B /* Captor.m */; };
+		99F1F906231964C00025D05B /* Previewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F1F905231964C00025D05B /* Previewer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33210D32B0EA6859A14A7AC6 /* Pods-HelloLivePushOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloLivePushOC.debug.xcconfig"; path = "Target Support Files/Pods-HelloLivePushOC/Pods-HelloLivePushOC.debug.xcconfig"; sourceTree = "<group>"; };
+		9908CFF0231E04D600E7E6ED /* Extractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Extractor.m; sourceTree = "<group>"; };
+		9908CFF2231E141D00E7E6ED /* Extractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Extractor.h; sourceTree = "<group>"; };
 		99AD97B82317C53C00C28182 /* HelloLivePushOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloLivePushOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99AD97BB2317C53C00C28182 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		99AD97BC2317C53C00C28182 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +33,12 @@
 		99AD97C72317C53E00C28182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99AD97C92317C53E00C28182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99AD97CA2317C53E00C28182 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99F1F90123195B4D0025D05B /* Captor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Captor.h; sourceTree = "<group>"; };
+		99F1F90223195B4D0025D05B /* Captor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Captor.m; sourceTree = "<group>"; };
+		99F1F904231964C00025D05B /* Previewer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Previewer.h; sourceTree = "<group>"; };
+		99F1F905231964C00025D05B /* Previewer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Previewer.m; sourceTree = "<group>"; };
+		D12DB4AB36F5E2FC2D884D78 /* Pods-HelloLivePushOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloLivePushOC.release.xcconfig"; path = "Target Support Files/Pods-HelloLivePushOC/Pods-HelloLivePushOC.release.xcconfig"; sourceTree = "<group>"; };
+		E1278217555323A08270CE76 /* Pods_HelloLivePushOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloLivePushOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +46,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B8703F577D762CC66522E1F /* Pods_HelloLivePushOC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A7CD061D381B766D4D18F8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1278217555323A08270CE76 /* Pods_HelloLivePushOC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36683FAC14B74933A346DE66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33210D32B0EA6859A14A7AC6 /* Pods-HelloLivePushOC.debug.xcconfig */,
+				D12DB4AB36F5E2FC2D884D78 /* Pods-HelloLivePushOC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		99AD97AF2317C53C00C28182 = {
 			isa = PBXGroup;
 			children = (
 				99AD97BA2317C53C00C28182 /* HelloLivePushOC */,
 				99AD97B92317C53C00C28182 /* Products */,
+				36683FAC14B74933A346DE66 /* Pods */,
+				1A7CD061D381B766D4D18F8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +95,7 @@
 				99AD97BC2317C53C00C28182 /* AppDelegate.m */,
 				99AD97BE2317C53C00C28182 /* ViewController.h */,
 				99AD97BF2317C53C00C28182 /* ViewController.m */,
+				99F1F900231958EA0025D05B /* Manual */,
 				99AD97C12317C53C00C28182 /* Main.storyboard */,
 				99AD97C42317C53E00C28182 /* Assets.xcassets */,
 				99AD97C62317C53E00C28182 /* LaunchScreen.storyboard */,
@@ -71,6 +105,20 @@
 			path = HelloLivePushOC;
 			sourceTree = "<group>";
 		};
+		99F1F900231958EA0025D05B /* Manual */ = {
+			isa = PBXGroup;
+			children = (
+				99F1F90123195B4D0025D05B /* Captor.h */,
+				99F1F90223195B4D0025D05B /* Captor.m */,
+				99F1F904231964C00025D05B /* Previewer.h */,
+				99F1F905231964C00025D05B /* Previewer.m */,
+				9908CFF2231E141D00E7E6ED /* Extractor.h */,
+				9908CFF0231E04D600E7E6ED /* Extractor.m */,
+			);
+			name = Manual;
+			path = src/Manual;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99AD97CE2317C53E00C28182 /* Build configuration list for PBXNativeTarget "HelloLivePushOC" */;
 			buildPhases = (
+				AE91077E1E8A9AF89B4BA21F /* [CP] Check Pods Manifest.lock */,
 				99AD97B42317C53C00C28182 /* Sources */,
 				99AD97B52317C53C00C28182 /* Frameworks */,
 				99AD97B62317C53C00C28182 /* Resources */,
+				A39571EBE314B32C8A0E7040 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,14 +186,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A39571EBE314B32C8A0E7040 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloLivePushOC/Pods-HelloLivePushOC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloLivePushOC/Pods-HelloLivePushOC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloLivePushOC/Pods-HelloLivePushOC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE91077E1E8A9AF89B4BA21F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloLivePushOC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		99AD97B42317C53C00C28182 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9908CFF1231E04D600E7E6ED /* Extractor.m in Sources */,
+				99F1F90323195B4D0025D05B /* Captor.m in Sources */,
 				99AD97C02317C53C00C28182 /* ViewController.m in Sources */,
 				99AD97CB2317C53E00C28182 /* main.m in Sources */,
 				99AD97BD2317C53C00C28182 /* AppDelegate.m in Sources */,
+				99F1F906231964C00025D05B /* Previewer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +315,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -273,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,6 +378,7 @@
 		};
 		99AD97CF2317C53E00C28182 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33210D32B0EA6859A14A7AC6 /* Pods-HelloLivePushOC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +396,7 @@
 		};
 		99AD97D02317C53E00C28182 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D12DB4AB36F5E2FC2D884D78 /* Pods-HelloLivePushOC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

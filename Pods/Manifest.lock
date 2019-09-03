@@ -1,0 +1,18 @@
+PODS:
+  - PLMediaStreamingKit (2.3.3):
+    - PLMediaStreamingKit/iphoneos (= 2.3.3)
+  - PLMediaStreamingKit/iphoneos (2.3.3)
+
+DEPENDENCIES:
+  - PLMediaStreamingKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PLMediaStreamingKit
+
+SPEC CHECKSUMS:
+  PLMediaStreamingKit: 762e312dd088b1b487c5b7f3a59b56231d1cbb71
+
+PODFILE CHECKSUM: d3b5ba50f412b9221a09b3a4ca97fb06b34482be
+
+COCOAPODS: 1.7.2
