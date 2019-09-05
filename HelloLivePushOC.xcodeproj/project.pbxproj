@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7B8703F577D762CC66522E1F /* Pods_HelloLivePushOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1278217555323A08270CE76 /* Pods_HelloLivePushOC.framework */; };
 		9908CFF1231E04D600E7E6ED /* Extractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9908CFF0231E04D600E7E6ED /* Extractor.m */; };
+		9908CFF5231E160F00E7E6ED /* VideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9908CFF4231E160F00E7E6ED /* VideoEncoder.m */; };
 		99AD97BD2317C53C00C28182 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AD97BC2317C53C00C28182 /* AppDelegate.m */; };
 		99AD97C02317C53C00C28182 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AD97BF2317C53C00C28182 /* ViewController.m */; };
 		99AD97C32317C53C00C28182 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99AD97C12317C53C00C28182 /* Main.storyboard */; };
@@ -23,6 +24,8 @@
 		33210D32B0EA6859A14A7AC6 /* Pods-HelloLivePushOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloLivePushOC.debug.xcconfig"; path = "Target Support Files/Pods-HelloLivePushOC/Pods-HelloLivePushOC.debug.xcconfig"; sourceTree = "<group>"; };
 		9908CFF0231E04D600E7E6ED /* Extractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Extractor.m; sourceTree = "<group>"; };
 		9908CFF2231E141D00E7E6ED /* Extractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Extractor.h; sourceTree = "<group>"; };
+		9908CFF3231E160F00E7E6ED /* VideoEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoEncoder.h; sourceTree = "<group>"; };
+		9908CFF4231E160F00E7E6ED /* VideoEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoEncoder.m; sourceTree = "<group>"; };
 		99AD97B82317C53C00C28182 /* HelloLivePushOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloLivePushOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99AD97BB2317C53C00C28182 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		99AD97BC2317C53C00C28182 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -114,6 +117,8 @@
 				99F1F905231964C00025D05B /* Previewer.m */,
 				9908CFF2231E141D00E7E6ED /* Extractor.h */,
 				9908CFF0231E04D600E7E6ED /* Extractor.m */,
+				9908CFF3231E160F00E7E6ED /* VideoEncoder.h */,
+				9908CFF4231E160F00E7E6ED /* VideoEncoder.m */,
 			);
 			name = Manual;
 			path = src/Manual;
@@ -238,6 +243,7 @@
 				99AD97C02317C53C00C28182 /* ViewController.m in Sources */,
 				99AD97CB2317C53E00C28182 /* main.m in Sources */,
 				99AD97BD2317C53C00C28182 /* AppDelegate.m in Sources */,
+				9908CFF5231E160F00E7E6ED /* VideoEncoder.m in Sources */,
 				99F1F906231964C00025D05B /* Previewer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
